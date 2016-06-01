@@ -7,9 +7,9 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = QuickstartApplication.class)
+@SpringApplicationConfiguration(classes = AngularApplication.class)
 @WebAppConfiguration
-public class QuickstartApplicationTests {
+public class AngularApplicationTests {
 
 	@Test
 	public void contextLoads() {

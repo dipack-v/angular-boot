@@ -75,7 +75,7 @@
                             <nodeVersion>v5.11.1</nodeVersion>
                             <npmVersion>3.8.6</npmVersion>
                             <workingDirectory>src/main/resources/static</workingDirectory>
-                            <installDirectory>./</installDirectory>
+                            <installDirectory>/</installDirectory>
                         </configuration>
                     </execution>
 
@@ -88,11 +88,11 @@
                         <configuration>
                             <arguments>install</arguments>
                             <workingDirectory>src/main/resources/static</workingDirectory>
-                            <installDirectory>./</installDirectory>
+                            <installDirectory>/</installDirectory>
                         </configuration>
                     </execution>
 
-                    <execution>
+                    <!--  <execution>
                         <id>npm run build</id>
                         <phase>compile</phase>
                         <goals>
@@ -102,9 +102,9 @@
                         <configuration>
                             <arguments>start</arguments>
                             <workingDirectory>src/main/resources/static</workingDirectory>
-                            <installDirectory>./</installDirectory>
+                            <installDirectory>/</installDirectory>
                         </configuration>
-                    </execution>
+                    </execution>-->
                     
                    
 
