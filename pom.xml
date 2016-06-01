@@ -92,7 +92,7 @@
                         </configuration>
                     </execution>
 
-                    <!--  <execution>
+                     <execution>
                         <id>npm run build</id>
                         <phase>compile</phase>
                         <goals>
@@ -100,11 +100,11 @@
                         </goals>
       
                         <configuration>
-                            <arguments>start</arguments>
+                            <arguments>run tsc</arguments>
                             <workingDirectory>src/main/resources/static</workingDirectory>
                             <installDirectory>/</installDirectory>
                         </configuration>
-                    </execution>-->
+                    </execution>
                     
                    
 
