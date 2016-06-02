@@ -1,0 +1,2 @@
+proxy=http://165.225.104.32:10223/
+rejectUnauthorized=false
