@@ -6,4 +6,4 @@
 mvnw*
 /bin/
 /target/
-**/npm-debug.log
+**/*npm-debug.log.*
