@@ -7,3 +7,5 @@ mvnw*
 /bin/
 /target/
 **/*npm-debug.log.*
+
+src/main/resources/static/.typingsrc
